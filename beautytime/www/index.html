@@ -23,12 +23,63 @@
   </head>
   <body ng-app="starter">
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+    <ion-tabs class="tabs-royal">
+      <ion-tab title="Agendar">
+        <ion-content>
+          <p>Agendar</p>
+        </ion-content>
+      </ion-tab>
+      <ion-tab title="Meus Horários">
+        <ion-content>
+          <p>Meus Horários</p>
+        </ion-content>
+      </ion-tab>
+    </ion-tabs>
+
+    <ion-side-menus>
+
+    <!-- Center content -->
+    <ion-side-menu-content>
+      <ion-header-bar class="bar-royal">
+        <h1 class="title">#BeautyTime</h1>
       </ion-header-bar>
-      <ion-content>
+      <ion-content class="has-tabs">
+        <div class="card">
+          <div class="item item-text-wrap">
+            This is a basic Card which contains an item that has wrapping text.
+          </div>
+        </div>
+        <div class="card">
+          <div class="item item-text-wrap">
+            This is a basic Card which contains an item that has wrapping text.
+          </div>
+        </div>
+        <div class="card">
+          <div class="item item-text-wrap">
+            This is a basic Card which contains an item that has wrapping text.
+          </div>
+        </div>
+
+        <!-- <div class="tabs">
+          <a class="tab-item">
+            AGENDAR
+          </a>
+          <a class="tab-item">
+            MEUS HORÁRIOS
+          </a>
+        </div> -->
+
       </ion-content>
-    </ion-pane>
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+      <ion-header-bar class="bar-dark">
+        <h1 class="title">Menu</h1>
+      </ion-header-bar>
+    </ion-side-menu>
+
+  </ion-side-menus>
+
   </body>
 </html>
