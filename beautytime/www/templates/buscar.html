@@ -1,0 +1,39 @@
+<ion-view title="Buscar">
+    <ion-content padding="'true'" class="has-header">
+        <form class="list">
+            <div class="list list-inset">
+                <label class="item item-input">
+                    <i class="icon ion-search placeholder-icon"></i>
+                    <input type="text" placeholder="LOCALIZAÇÃO ou NOME DO SALÃO">
+                </label>
+                <a class="item item-icon-left" href="#">
+                    <i class="icon ion ion-android-locate"></i>
+                    Inserir minha localização
+                </a>
+            </div>
+            <div class="spacer" style="width: 300px; height: 22px;"></div>
+            <label class="item item-select">
+                <span class="input-label">Serviço</span>
+                <select></select>
+            </label>
+            <div class="spacer" style="width: 300px; height: 22px;"></div>
+            <label class="item item-select">
+                <span class="input-label">Hora inicial</span>
+                <select></select>
+            </label>
+            <label class="item item-select">
+                <span class="input-label">Hora final</span>
+                <select></select>
+            </label>
+        </form>
+        <h3>Valor</h3>
+        <form class="list">
+            <ion-item class="range range-positive">De
+                <input type="range" value="50" min="0" max="100">
+            </ion-item>
+            <ion-item class="range range-positive">Até
+                <input type="range" value="50" min="0" max="100">
+            </ion-item>
+        </form>
+    </ion-content>
+</ion-view>
