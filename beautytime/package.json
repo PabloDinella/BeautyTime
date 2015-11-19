@@ -1,7 +1,7 @@
 {
-  "name": "beautytime",
-  "version": "1.0.0",
-  "description": "beautytime: An Ionic project",
+  "name": "btlegal",
+  "version": "1.1.1",
+  "description": "btlegal: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
@@ -23,7 +23,6 @@
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [
-    "ios",
-    "android"
+    "ios"
   ]
 }
