@@ -7,19 +7,19 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-      
-        
-    .state('serviçO', {
+
+
+
+    .state('servico', {
       url: '/servico',
-      templateUrl: 'templates/serviçO.html',
+      templateUrl: 'templates/servico.html',
       controller: 'serviçOCtrl'
     })
-        
-      
-    
-      
-        
+
+
+
+
+
     .state('tabsController.agendar', {
       url: '/agendar',
       views: {
@@ -29,29 +29,29 @@ angular.module('app.routes', [])
         }
       }
     })
-        
-      
-    
-      
+
+
+
+
     .state('tabsController', {
       url: '/page2',
       abstract:true,
       templateUrl: 'templates/tabsController.html'
     })
-      
-    
-      
-        
+
+
+
+
     .state('buscar', {
       url: '/buscar',
       templateUrl: 'templates/buscar.html',
       controller: 'buscarCtrl'
     })
-        
-      
-    
-      
-        
+
+
+
+
+
     .state('tabsController.meusHoráRios', {
       url: '/meus-horarios',
       views: {
@@ -61,18 +61,18 @@ angular.module('app.routes', [])
         }
       }
     })
-        
-      
-    
-      
-        
-    .state('confirmaçãO', {
+
+
+
+
+
+    .state('confirmar', {
       url: '/confirmar',
-      templateUrl: 'templates/confirmaçãO.html',
+      templateUrl: 'templates/confirmar.html',
       controller: 'confirmaçãOCtrl'
     })
-        
-      
+
+
     ;
 
   // if none of the above states are matched, use this as the fallback
